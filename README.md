@@ -16,15 +16,17 @@ Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishin
 | [Augments](guides/Augments.md) | Year-round and seasonal rod effects. |
 | [Multicasting](guides/Multicasting.md) | Extra lines and their independent bite timing. |
 | [Quests and tournaments](guides/Daily-Quests-and-Tournaments.md) | Goals, scoring, prizes, and reward claims. |
-| [Seasonal events](guides/Seasonal-Events.md) | Haunted Tides, Winter's Wake, and Blooming Tides. |
+| [Seasonal events](guides/Seasonal-Events.md) | Haunted Tides, Winter's Wake, Blooming Tides and Sunken Solstice. |
+| [Summer rod activities](guides/Summer-Rod-Activities.md) | Siren choices, private storms, growing oysters, spectrum boosts and bottled voyages. |
+| [The Sunken Regatta](guides/Sunken-Regatta.md) | Restore the summer vessel together, unlock species and claim a seasonal reward. |
 | [Winter rod activities](guides/Winter-Rod-Activities.md) | Star Stitcher, Krampus' Bargain, Toymaker's Thread, and Ribbon Relay. |
 | [Community guardians](guides/Community-Guardians.md) | Shared fishing encounters and rewards. |
-| [Seasonal effects](guides/Seasonal-Effects.md) | Spooky rings, snowflakes, and spring petals. |
+| [Seasonal effects](guides/Seasonal-Effects.md) | Spooky rings, snowflakes, spring petals and summer sparks. |
 | [Biome disruption](guides/Biome-Disruption.md) | Temporary fishing zones with fish from other biomes. |
 | [Coin exchange](guides/Coin-Exchange.md) | Converting fishing coins into server money. |
 | [Special crate rods](guides/Special-Crate-Rods.md) | Bonus catches, progression, and automatic Recast. |
 | [Commands and help](guides/Commands-and-Help.md) | Player commands and common questions. |
 
-The guide covers **MineSeedFishing 1.4.2 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
+The guide covers **MineSeedFishing 1.5.0 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
 
 This public repository contains player documentation only.

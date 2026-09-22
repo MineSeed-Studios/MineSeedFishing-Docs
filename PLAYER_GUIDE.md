@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias.
 
-This guide describes version **1.4.2 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.5.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Your first fishing trip
 
@@ -43,7 +43,7 @@ Keep the same rod held while fishing. Opening an inventory menu, switching or dr
 
 ## Fish, rarity, and your collection
 
-The default collection contains **258 species**: **231 year-round species** and **27 seasonal species**. Fish range from **Common** through **Uncommon, Rare, Epic, and Legendary**. Some discoveries require a higher fishing level or particular conditions. Luck improves your odds of rarer catches but does not guarantee them or bypass their requirements.
+The default collection contains **273 species**: **231 year-round species** and **42 seasonal species**. Fish range from **Common** through **Uncommon, Rare, Epic, and Legendary**. Some discoveries require a higher fishing level or particular conditions. Luck improves your odds of rarer catches but does not guarantee them or bypass their requirements.
 
 Each catch has its own length, physical weight, and sale value. Larger specimens of the same species are generally worth more, while rarity and species also matter. Legendary catches are announced to the server by default.
 
@@ -67,16 +67,20 @@ Fish, augment copies, and crafting materials are held in your fishing profile. T
 
 ## Fishing levels and permanent upgrades
 
-Fishing XP is separate from vanilla Minecraft experience. You start at **fishing level 1**, earn another level every **1,000 fishing XP**, and can reach **level 100** by default. Catching fish, claiming quests, and completing certain activities earn fishing XP. Higher levels unlock more species and augment blueprints.
+Fishing XP is separate from vanilla Minecraft experience. You start at **fishing level 1** and can reach **level 100**. Each new level requires more XP than the last; the default total for level 100 is **9,801,000 fishing XP**. Catching fish, claiming quests, and completing certain activities earn fishing XP. Higher levels unlock more species and augment blueprints.
+
+XP is cumulative: reaching a level does not spend it. Default milestones are **81,000 XP at level 10**, **576,000 at level 25**, **2,401,000 at level 50**, and **5,476,000 at level 75**. Multicasting, luck, XP augments, rod bonuses and activities affect how quickly you advance.
 
 The upgrades in `/fish upgrades` belong to your **player profile**, so they continue working when you change rods. Each purchase increases that upgrade by one level, and later levels cost more.
 
 | Upgrade | Benefit per level | Default maximum | First purchase |
 | --- | --- | --- | --- |
-| **Quickline** | 8% shorter fishing waits | 5 levels; 40% reduction | 25 coins |
-| **Lucky Current** | Increased rarity luck | 5 levels | 40 coins |
-| **Fine Catch** | 10% more value on future catches | 5 levels; +50% value | 35 coins |
-| **Deep Creel** | Space for 50 additional fish | 8 levels; 500 total capacity | 20 coins |
+| **Quickline** | 8% shorter fishing waits | 5 levels; 40% reduction | 500 coins |
+| **Lucky Current** | Increased rarity luck | 5 levels | 800 coins |
+| **Fine Catch** | 10% more value on future catches | 5 levels; +50% value | 700 coins |
+| **Deep Creel** | Space for 50 additional fish | 8 levels; 500 total capacity | 400 coins |
+
+If the server adopts a harder level curve, your displayed level can change while your accumulated fishing XP remains saved. The live menus always use the server’s current requirements.
 
 The menu displays your current level, benefit per level, and next purchase price. Buying an account upgrade does not occupy an augment slot on your rod.
 
@@ -158,21 +162,22 @@ For a longer-term competition, `/fish top` opens the **Hall of Anglers**, ranked
 
 ## Seasonal voyages
 
-Seasonal events bring nine special fish apiece, unique crafting materials, and four exclusive augment blueprints. Open `/fish events` to check event status, fishing regions, currency, and community progress. Click an event to browse only its augments.
+Seasonal voyages add new fish, themed crafting materials and event-exclusive augment blueprints. Halloween, winter and spring each offer nine species and four augments; summer adds fifteen species and five interactive augments. Open `/fish events` to check event status, fishing regions, currency, and community progress. Click an event to browse only its augments.
 
 | Event | Default season | Seasonal material |
 | --- | --- | --- |
 | **Haunted Tides** | October 1–31 | Haunted Essence |
 | **Winter’s Wake** | December 1–31 | Sleigh Sparks |
 | **Blooming Tides** | March 20–April 30 | Bloom Petals |
+| **Sunken Solstice** | June 1–August 31 | Sunlit Sea Glass |
 
 Blooming Tides is the spring/Easter event and follows that annual date range; its start does not move with Easter Sunday.
 
 ### Discover the seasonal fishing grounds
 
-At the start of a season, one discovery biome is selected from that event’s possible regions. The server community needs **three successful catches in the chosen biome** to unlock the seasonal fish pool for everyone. The default event menu lists the possible regions; explore them together until the discovery is announced.
+At the start of a season, one discovery biome is selected from that event’s possible regions. The server community needs **three successful catches in the chosen biome** for Halloween, winter or spring, or **twelve for summer**, to unlock that event’s initial fish pool for everyone. The default event menu lists the possible regions; explore them together until the discovery is announced.
 
-After discovery, eligible catches have a default **25% chance to try the event’s fish pool**. Seasonal species still have their own fishing-level and habitat requirements. Each event includes three water, three lava, and three void species, so all three realms have something to find.
+After discovery, eligible catches have a default **25% chance to try the event’s fish pool**. Seasonal species still have their own fishing-level and habitat requirements. Halloween, winter and spring each include three water, three lava and three void species. Summer includes five per realm; its later species also require community progress in the Sunken Regatta.
 
 A successful seasonal catch normally earns **one unit of that event’s material**. It is awarded when caught; salvaging stored fish does not create seasonal currency. Check your pouch or event menu to see your balance.
 
@@ -182,7 +187,7 @@ A successful seasonal catch normally earns **one unit of that event’s material
 
 Once earned, copies remain yours. You can install, upgrade with already-owned copies, remove, and use them throughout the year, including their activities and visual effects. An event ending does not take away your augments or saved materials.
 
-All twelve default seasonal blueprints require **fishing level 5**. Each copy costs **40 of its event’s material, 12 Prismatic Dust, and 200 fishing coins** to craft, with a **10-coin installation fee** and **5-coin removal fee**. Halloween and spring augments have three levels; winter activity augments have one. Each copy supplies one installed level.
+All seventeen default seasonal blueprints require **fishing level 5**. Halloween, winter and spring copies cost **40 of their event’s material, 12 Prismatic Dust and 4,000 fishing coins**. Summer copies cost **60 Sunlit Sea Glass, 20 Prismatic Dust and 4,000 fishing coins**. All have a **100-coin installation fee** and **50-coin removal fee**. Halloween and spring augments have three levels; winter and summer activity augments have one. Each copy supplies one installed level.
 
 ### Haunted Tides augments
 
@@ -233,6 +238,46 @@ The default relay requires three successful turns within five minutes, with a fi
 
 You can open an individual activity directly with `/fish activity star_stitcher`, `/fish activity krampus_bargain`, `/fish activity toymakers_thread`, or `/fish activity ribbon_relay`.
 
+### Sunken Solstice augments and activities
+
+These five augments turn successful fishing into personal choices and longer projects. Craft them during Sunken Solstice, install one on your registered rod, and use `/fish activities` or `/fish activity <augment_id>` to check its progress. Keep that same rod held when choosing or collecting rewards. Their abilities remain usable all year after you have earned the copies.
+
+**Siren’s Bargain — choose your next discovery.** Successful catches have a default **4% chance** to offer two eligible species. Open the Siren’s Bargain activity, choose one, then catch it with the same rod before the **ten-minute offer window** expires. Choosing does not immediately award a fish: you still have to fish successfully, and the species must remain eligible for your realm, biome, level, time, weather and seasonal unlocks. A change of conditions can mean waiting or returning to the right spot.
+
+**Stormglass — save a personal surge.** Build charge with **twelve successful catches**, then activate the ability from its menu. For up to **three minutes or eight eligible catches**, your line draws from a special configured fish pool under a private storm. Its weather requirement is evaluated as stormy even when the world is clear; other players’ weather does not change. Realm, world, biome, time, level, seasonal calendar, discovery and Regatta unlock requirements still apply. Charging and spending charge are separate choices.
+
+**Pearl Diver — open now or grow a better reward.** Each successful catch has a **5% chance** to find a virtual oyster, with room for **three oysters**. Open one immediately for **75 coins, 100 XP and 3 Tidal Fiber**, or keep it through **twelve further successful catches** to mature it. A mature oyster awards **250 coins, 350 XP, 5 Prismatic Dust and 8 Tidal Fiber**. The menu shows each oyster’s growth and lets you choose which to open. Oysters and rewards stay in your fishing profile; there are no physical oysters to lose in a chest or trade.
+
+**Prismatic Current — collect a spectrum.** Catch fish from **three different rarities**, then choose one temporary benefit for your next **eight successful catches**: favor eligible undiscovered species, favor larger sizes, or add one salvage unit to newly caught fish. The discovery choice has a default **50% chance per catch** to prefer unseen eligible species; it cannot unlock a forbidden habitat or guarantee a legendary. The size choice adds a size bias of **0.4**. The salvage choice stays attached to the affected catch until you salvage it. Every successful original catch spends one of the eight uses, including catches whose species is selected by Siren’s Bargain or Stormglass. After the benefit runs out, build a new spectrum.
+
+**Message in a Bottle — follow a fishing trail.** A successful catch has a **2.5% chance** to uncover a personal voyage. You have **one hour** to complete its clues in order: catch three water fish, two Nether lava fish, then one End void fish at least 20 cm long. Check the activity menu for the current clue. Once all clues are finished, claim the cache there. The cache is selected when the voyage begins and can be claimed once; reopening the menu does not reroll it.
+
+| Bottle cache | Default chance | Reward |
+| --- | ---: | --- |
+| Mariner’s Satchel | 60% | 500 coins, 500 XP, 12 Tidal Fiber and 4 Prismatic Dust |
+| Ember Coffer | 25% | 1,000 coins, 750 XP, 8 Ember Scale and 8 Void Silk |
+| Tidekeeper’s Cache | 15% | 1,750 coins, 1,000 XP and 12 Prismatic Dust |
+
+These activities count successful original catches. Bonus copies do not repeat their progress or rewards. Timed opportunities keep their deadlines through logout or restart; saved oyster growth, charge and completed claimable caches remain in your profile.
+
+The menu’s **Discard progress and unclaimed rewards** action permanently forfeits that activity’s saved progress, unused effects, unclaimed oysters or completed cache. It grants no replacement reward. This can clear an activity left behind by a lost rod: hold another rod you own with the same usable augment installed, open its activity and discard the old state. Claim or open earned rewards first if you want to keep them. You still need a held, usable copy of the matching augment to perform this action.
+
+## The Sunken Regatta
+
+Sunken Solstice also brings a shared restoration project. Open `/fish regatta` to see how the whole server is rebuilding an ancient vessel. This is a cooperative fishing objective: summer catches contribute automatically while the event is active, and each completed stage reveals more summer species in all three realms.
+
+| Stage | Total summer catches required | What opens |
+| --- | ---: | --- |
+| Keel of Memories | 15,000 | Golden Keelfish, Cinder Corsair and Spectral Skiff |
+| Lantern Rigging | 45,000 | Lantern Lionfish, Lanternmaw and Starwake Manta |
+| The Sunlit Sail | 100,000 | Solstice Crown, Solforge Leviathan and Sunless Sovereign |
+
+The thresholds are cumulative. Species unlocked by an earlier stage stay available for the rest of that annual season, subject to their usual fishing requirements. Summer has no guardian fight by default.
+
+Completing the final stage starts a **72-hour celebration**, while the summer event remains active, that adds **20 percentage points** to the chance of trying the summer fish pool. Its normal 25% chance becomes 45%; this is a chance to try that pool, not a guaranteed rare catch.
+
+Players who contributed at least **100 summer catches** can then claim **5,000 fishing coins, 10,000 XP and 75 Sunlit Sea Glass** from the Regatta menu, once per annual season. Claim before the summer event ends. Progress, contributions, completed stages and claims survive restarts. A new summer season starts a new restoration.
+
 ## Winter’s Wake community guardian
 
 Winter’s Wake also has a shared fishing encounter: the **Frostwake Leviathan**. Catching seasonal winter fish contributes toward the community’s **100-catch target**. This contribution does not spend your Sleigh Sparks. Make at least **three seasonal catches in the current round** to qualify to participate and receive its victory reward.
@@ -249,7 +294,7 @@ Haunted Tides and Blooming Tides also support community guardians, **The Lantern
 
 ## Seasonal fishing effects
 
-Usable seasonal augments add atmosphere around your fishing spot: a spooky purple ring for Halloween, drifting snowflakes for winter, and cherry petals for spring, with matching sounds. These effects can continue year-round with augments you already own.
+Usable seasonal augments add atmosphere around your fishing spot: a spooky purple ring for Halloween, drifting snowflakes for winter, cherry petals for spring and sparks for summer, with matching sounds. These effects can continue year-round with augments you already own.
 
 By default, only the angler sees their augment effects. If several seasonal styles are equipped, one matching style is shown. These are visual effects around the line; they do not change water blocks, biome colors, or terrain.
 
@@ -257,7 +302,7 @@ By default, only the angler sees their augment effects. If several seasonal styl
 
 Want a chance at water fish from other biomes without moving to a new fishing spot? Open `/fish disrupt`, buy a charge, face the water, and throw it. The same controls are available through `/fish disrupt buy` and `/fish disrupt throw`.
 
-With the default settings, a charge costs **250 fishing coins**. Landing the orb in overworld water creates a **12-block-radius zone lasting two minutes**. Water catches inside the zone can draw from fish across different biomes, and nearby anglers can share the benefit.
+With the default settings, a charge costs **500 fishing coins**. Landing the orb in overworld water creates a **12-block-radius zone lasting two minutes**. Water catches inside the zone can draw from fish across different biomes, and nearby anglers can share the benefit.
 
 You can also throw a purchased charge by **sneaking and right-clicking while holding a snowball in your main hand**. The snowball is a controller and is not consumed; the purchased virtual charge pays for the throw. A normal snowball alone does not supply a charge.
 
@@ -269,15 +314,15 @@ A launched charge is spent even if you miss or the landing is rejected. Your zon
 
 **Fishing coins** pay for fishing upgrades, augments, fees, and disruption charges. **Server money** is your separate Essentials balance. Open `/fish exchange` to convert fishing coins into server money.
 
-The default exchange rate is **100 fishing coins = $1.00**:
+The default exchange rate is **1,000 fishing coins = $1.00**:
 
 | Fishing coins | Server money |
 | --- | --- |
-| 100 | $1.00 |
-| 1,000 | $10.00 |
-| 10,000 | $100.00 |
+| 1,000 | $1.00 |
+| 10,000 | $10.00 |
+| 100,000 | $100.00 |
 
-Choose a preset or use `/fish exchange 1000` for a custom amount, then review and confirm the quote. The default minimum is 100 coins, the maximum is 1,000,000 coins, and the cooldown is five seconds. Fractional amounts are supported up to two decimal places; the payout rounds down to the displayed money precision.
+Choose a preset or use `/fish exchange 1000` for a custom amount, then review and confirm the quote. The default minimum is 1,000 coins, the maximum is 1,000,000 coins, and the cooldown is five seconds. Fractional amounts are supported up to two decimal places; the payout rounds down to the displayed money precision.
 
 This exchange works from fishing coins **into** server money. It does not transfer coins to another player or buy fishing coins with server money. Seasonal materials are a separate resource and cannot be exchanged here.
 
@@ -285,7 +330,7 @@ If a payout remains pending, contact staff so they can check it. Repeated clicks
 
 ## Special crate rods
 
-Supported MineSeedCrateItems rods can retain their special fishing benefits while using this fishing system. **Use these special rods in your main hand** for their integrated bonuses, progression, and Recast. Their configured double-catch chances can add bonus fish to your creel, and supported automatic Recast rods can cast another line after a successful catch. December rod progression follows eligible original pufferfish catches.
+Supported MineSeedCrateItems rods can retain their special fishing benefits while using this fishing system. **Use these special rods in your main hand** for their integrated bonuses, progression, and Recast. Their configured double-catch chances can add bonus fish to your creel, and supported automatic Recast rods can cast another line after a successful catch. December rod progression follows eligible original pufferfish catches. Fishing Crate and April 2026 automatic recasts keep normal fishing waits and speed bonuses; automatic casting alone does not make fish bite instantly. December’s separate level-based fishing speed remains part of that rod’s ability.
 
 Recast starts a **new cast after the previous catch**; multicasting supplies extra lines **within one cast**. A Recast rod does not need Branching Line, and Recast alone should not create a second simultaneous bobber. You still need to reel at the bite. Switching rods, moving to another world, or making an intervening manual cast can cancel a queued automatic recast.
 
@@ -313,6 +358,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish augments halloween` | Haunted Tides blueprints. |
 | `/fish augments christmas` | Winter’s Wake blueprints. |
 | `/fish augments spring` | Blooming Tides blueprints. |
+| `/fish augments summer` | Sunken Solstice blueprints. |
+| `/fish regatta` | Summer community restoration, fish unlocks and reward claim. |
 | `/fish rod` | Register/manage the rod in your main hand and install copies. |
 | `/fish remove` | Augment removal and copy recovery. |
 | `/fish events` | Seasonal Voyages. `/fish seasonal` opens the same menu. |

@@ -9,6 +9,8 @@
 - [Multicasting](Multicasting.md)
 - [Daily Quests and Tournaments](Daily-Quests-and-Tournaments.md)
 - [Seasonal Events](Seasonal-Events.md)
+- [Summer Rod Activities](Summer-Rod-Activities.md)
+- [The Sunken Regatta](Sunken-Regatta.md)
 - [Winter Rod Activities](Winter-Rod-Activities.md)
 - [Community Guardians](Community-Guardians.md)
 - [Seasonal Effects](Seasonal-Effects.md)

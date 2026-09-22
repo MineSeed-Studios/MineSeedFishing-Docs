@@ -1,6 +1,6 @@
 # Augments
 
-> Based on MineSeedFishing 1.4.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Year-round augments
 
@@ -40,6 +40,8 @@ Soul Harvester’s bonus is decided **when the fish is caught**. Equipping it ju
 The four winter augments—**Star Stitcher**, **Krampus’ Bargain**, **Toymaker’s Thread**, and **Ribbon Relay**—unlock interactive challenges. See [Winter Rod Activities](Winter-Rod-Activities.md) for their instructions and rewards.
 
 See [Seasonal Events](Seasonal-Events.md) for seasonal crafting windows, costs, and year-round use.
+
+Summer adds **Siren’s Bargain**, **Stormglass**, **Pearl Diver**, **Prismatic Current**, and **Message in a Bottle**. See [Summer Rod Activities](Summer-Rod-Activities.md) for their choices, progress and rewards.
 
 ---
 

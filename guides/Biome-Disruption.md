@@ -1,10 +1,10 @@
 # Biome Disruption
 
-> Based on MineSeedFishing 1.4.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Want a chance at water fish from other biomes without moving to a new fishing spot? Open `/fish disrupt`, buy a charge, face the water, and throw it. The same controls are available through `/fish disrupt buy` and `/fish disrupt throw`.
 
-With the default settings, a charge costs **250 fishing coins**. Landing the orb in overworld water creates a **12-block-radius zone lasting two minutes**. Water catches inside the zone can draw from fish across different biomes, and nearby anglers can share the benefit.
+With the default settings, a charge costs **500 fishing coins**. Landing the orb in overworld water creates a **12-block-radius zone lasting two minutes**. Water catches inside the zone can draw from fish across different biomes, and nearby anglers can share the benefit.
 
 You can also throw a purchased charge by **sneaking and right-clicking while holding a snowball in your main hand**. The snowball is a controller and is not consumed; the purchased virtual charge pays for the throw. A normal snowball alone does not supply a charge.
 

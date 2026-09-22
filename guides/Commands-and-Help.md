@@ -1,6 +1,6 @@
 # Commands and Help
 
-> Based on MineSeedFishing 1.4.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Command reference
 
@@ -24,6 +24,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish augments halloween` | Haunted Tides blueprints. |
 | `/fish augments christmas` | Winter’s Wake blueprints. |
 | `/fish augments spring` | Blooming Tides blueprints. |
+| `/fish augments summer` | Sunken Solstice blueprints. |
+| `/fish regatta` | Summer community restoration, fish unlocks and reward claim. |
 | `/fish rod` | Register/manage the rod in your main hand and install copies. |
 | `/fish remove` | Augment removal and copy recovery. |
 | `/fish events` | Seasonal Voyages. `/fish seasonal` opens the same menu. |

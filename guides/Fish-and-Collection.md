@@ -1,8 +1,8 @@
 # Fish and Collection
 
-> Based on MineSeedFishing 1.4.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
-The default collection contains **258 species**: **231 year-round species** and **27 seasonal species**. Fish range from **Common** through **Uncommon, Rare, Epic, and Legendary**. Some discoveries require a higher fishing level or particular conditions. Luck improves your odds of rarer catches but does not guarantee them or bypass their requirements.
+The default collection contains **273 species**: **231 year-round species** and **42 seasonal species**. Fish range from **Common** through **Uncommon, Rare, Epic, and Legendary**. Some discoveries require a higher fishing level or particular conditions. Luck improves your odds of rarer catches but does not guarantee them or bypass their requirements.
 
 Each catch has its own length, physical weight, and sale value. Larger specimens of the same species are generally worth more, while rarity and species also matter. Legendary catches are announced to the server by default.
 
