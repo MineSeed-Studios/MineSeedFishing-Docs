@@ -1,6 +1,6 @@
 # Commands and Help
 
-> Based on MineSeedFishing 1.5.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.1 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Command reference
 
@@ -9,6 +9,7 @@ Every command below also works with `/fishing` in place of `/fish`.
 | Command | Opens or performs |
 | --- | --- |
 | `/fish` | Angler’s Haven dashboard and profile. |
+| `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
 | `/fish catalog` | Field Guide, discoveries, and personal records. |
 | `/fish sell` | Full-creel sale confirmation. |

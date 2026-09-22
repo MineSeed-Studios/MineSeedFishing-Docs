@@ -1,10 +1,14 @@
 # Levels and Upgrades
 
-> Based on MineSeedFishing 1.5.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.1 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Fishing XP is separate from vanilla Minecraft experience. You start at **fishing level 1** and can reach **level 100**. Each new level requires more XP than the last; the default total for level 100 is **9,801,000 fishing XP**. Catching fish, claiming quests, and completing certain activities earn fishing XP. Higher levels unlock more species and augment blueprints.
 
 XP is cumulative: reaching a level does not spend it. Default milestones are **81,000 XP at level 10**, **576,000 at level 25**, **2,401,000 at level 50**, and **5,476,000 at level 75**. Multicasting, luck, XP augments, rod bonuses and activities affect how quickly you advance.
+
+Hover over your player head in `/fish` to see your **XP progress bar**. It shows progress through your current level, along with the XP earned toward its requirement and a percentage. Reaching a new level starts that bar again; your total fishing XP stays saved. At the level cap, the bar is full and marked **Maximum level reached**.
+
+Use **`/fish info`** to display your fishing profile directly in chat: level and XP progress, fishing coins, lifetime catches, collection, and total fishing XP. **`/fish info <player>`** shows another angler’s saved profile, including when they are offline. Use their last saved player name or UUID; unknown players do not receive an empty profile. Names are matched without case sensitivity, and a UUID can distinguish players when a saved name is ambiguous. `/fishing info` works the same way. The server can restrict looking up other players, and console users must provide a player name or UUID.
 
 The upgrades in `/fish upgrades` belong to your **player profile**, so they continue working when you change rods. Each purchase increases that upgrade by one level, and later levels cost more.
 

@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias.
 
-This guide describes version **1.5.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.5.1 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Your first fishing trip
 
@@ -70,6 +70,10 @@ Fish, augment copies, and crafting materials are held in your fishing profile. T
 Fishing XP is separate from vanilla Minecraft experience. You start at **fishing level 1** and can reach **level 100**. Each new level requires more XP than the last; the default total for level 100 is **9,801,000 fishing XP**. Catching fish, claiming quests, and completing certain activities earn fishing XP. Higher levels unlock more species and augment blueprints.
 
 XP is cumulative: reaching a level does not spend it. Default milestones are **81,000 XP at level 10**, **576,000 at level 25**, **2,401,000 at level 50**, and **5,476,000 at level 75**. Multicasting, luck, XP augments, rod bonuses and activities affect how quickly you advance.
+
+Hover over your player head in `/fish` to see your **XP progress bar**. It shows progress through your current level, along with the XP earned toward its requirement and a percentage. Reaching a new level starts that bar again; your total fishing XP stays saved. At the level cap, the bar is full and marked **Maximum level reached**.
+
+Use **`/fish info`** to display your fishing profile directly in chat: level and XP progress, fishing coins, lifetime catches, collection, and total fishing XP. **`/fish info <player>`** shows another angler’s saved profile, including when they are offline. Use their last saved player name or UUID; unknown players do not receive an empty profile. Names are matched without case sensitivity, and a UUID can distinguish players when a saved name is ambiguous. `/fishing info` works the same way. The server can restrict looking up other players, and console users must provide a player name or UUID.
 
 The upgrades in `/fish upgrades` belong to your **player profile**, so they continue working when you change rods. Each purchase increases that upgrade by one level, and later levels cost more.
 
@@ -343,6 +347,7 @@ Every command below also works with `/fishing` in place of `/fish`.
 | Command | Opens or performs |
 | --- | --- |
 | `/fish` | Angler’s Haven dashboard and profile. |
+| `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
 | `/fish catalog` | Field Guide, discoveries, and personal records. |
 | `/fish sell` | Full-creel sale confirmation. |
