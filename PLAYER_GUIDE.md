@@ -19,6 +19,8 @@ This guide describes version **1.5.2 with its default settings**. The server can
 
 ## Fishing in the three realms
 
+With the updated **MineSeedJobs** integration installed, eligible catches in **water, Nether lava, and End void** also count toward the Fisherman job after you join it. Job XP, money, and points follow the server's Jobs configuration. Each successfully caught original multicast line counts by default; extra bonus copies from augments or crate rods do not.
+
 ### Overworld water
 
 Cast into water and reel in at the normal fishing bite. Successful custom catches go straight into your creel and award fishing experience. The catch message shows the species, length, weight, value, and XP.
