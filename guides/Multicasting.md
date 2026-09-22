@@ -1,6 +1,6 @@
 # Multicasting
 
-> Based on MineSeedFishing 1.5.1 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 With Branching Line or a successful seasonal extra-line effect, additional bobbers spread out beside your main line. These are independent fishing lines: each needs a suitable location and gets its own wait and bite window.
 

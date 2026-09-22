@@ -27,6 +27,6 @@ Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishin
 | [Special crate rods](guides/Special-Crate-Rods.md) | Bonus catches, progression, and automatic Recast. |
 | [Commands and help](guides/Commands-and-Help.md) | Player commands and common questions. |
 
-The guide covers **MineSeedFishing 1.5.1 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
+The guide covers **MineSeedFishing 1.5.2 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
 
 This public repository contains player documentation only.
