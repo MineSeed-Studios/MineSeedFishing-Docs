@@ -2,7 +2,7 @@
 
 Explore overworld waters, fish the Nether's lava, and cast into the End void. Build your collection, customize your rods, and take part in seasonal adventures.
 
-**[Open the player guide](guides/Home.md)** · **[Read the complete guide on one page](PLAYER_GUIDE.md)**
+**[Open the player wiki](https://github.com/MineSeed-Studios/MineSeedFishing-Docs/wiki)** · **[Browse the repository guide](guides/Home.md)** · **[Read everything on one page](PLAYER_GUIDE.md)**
 
 Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishing dashboard.
 
