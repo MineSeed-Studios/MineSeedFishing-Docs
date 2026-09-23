@@ -1,6 +1,6 @@
 # Seasonal Events
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Seasonal voyages add new fish, themed crafting materials and event-exclusive augment blueprints. Halloween, winter and spring each offer nine species and four augments; summer adds fifteen species and five interactive augments. Open `/fish events` to check event status, fishing regions, currency, and community progress. Click an event to browse only its augments.
 

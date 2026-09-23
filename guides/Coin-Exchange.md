@@ -1,6 +1,6 @@
 # Coin Exchange
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 **Fishing coins** pay for fishing upgrades, augments, fees, and disruption charges. **Server money** is your separate Essentials balance. Open `/fish exchange` to convert fishing coins into server money.
 

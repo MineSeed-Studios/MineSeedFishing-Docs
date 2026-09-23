@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias. MineSeedFishing takes priority for `/fishing` when mcMMO is installed; use `/mcmmo:fishing` for mcMMO’s fishing skill page.
 
-This guide describes version **1.5.2 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.6.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Your first fishing trip
 
@@ -51,7 +51,7 @@ Each catch has its own length, physical weight, and sale value. Larger specimens
 
 Open `/fish catalog` to browse the **Field Guide**. It shows each species’ realm, rarity, required level, habitat, time and weather conditions, possible size range, discovery status, total caught, and your largest recorded length. This is also your collection journal: selling or salvaging a fish does not erase the discovery or record.
 
-Custom fish artwork appears in the menus when the server’s ItemsAdder pack and your resource pack are available. These icons represent your stored catches; they are not items to drag into your inventory.
+Custom fish artwork appears in the menus and on manually withdrawn fish when the server’s ItemsAdder pack and your resource pack are available. Menu icons are previews: use Angler Storage to withdraw an item instead of dragging an icon out.
 
 ## Your creel: keep, sell, or salvage
 
@@ -65,7 +65,32 @@ You have several uses for your haul:
 
 Selling and salvaging consume the affected fish. A catch cannot be used for both. Its sale value is set when you catch it, so a later value upgrade helps future catches without increasing the price of fish already stored.
 
-Fish, augment copies, and crafting materials are held in your fishing profile. They cannot be withdrawn as physical items, traded between players, cooked, placed in chests, or sold through another plugin’s item shop.
+### Withdraw items to carry, store, or trade
+
+**All catches, materials and newly earned augment copies start in your virtual fishing profile.** Nothing becomes a physical item automatically. Open **Angler Storage** from the dashboard, or use `/fish items` or `/fish withdraw`, when you want to carry something yourself.
+
+1. Choose **Withdraw Fish**, **Withdraw Materials**, or **Withdraw Augments**.
+2. Select a species, material, or unused augment copy you own.
+3. Choose a quantity. Defaults offer **1, 16, 64**, plus your available amount up to **1,024**. Only choices you can afford appear.
+4. Leave an empty inventory slot. Clicking the quantity removes that amount from virtual storage and gives you **one sealed physical bundle**.
+
+A bundle uses one slot even when its label says ×64. It cannot stack or split into separate inventory units. To split a large bundle, deposit it and withdraw the smaller quantities you want. You can keep bundles in chests or give them to another player; trading is enabled by default, but the server can restrict redemption to the original owner.
+
+Only **unused augment copies** can be withdrawn. An installed augment stays attached to its registered rod. Use `/fish remove` and pay its usual removal fee first if you want those levels returned as copies, then withdraw the returned copies. A received augment still needs to be deposited and installed normally before it provides any benefit.
+
+### Deposit a physical bundle
+
+Open `/fish deposit`, then **click the bundle you want to deposit** in the menu. The menu previews fishing bundles in your normal inventory and hotbar. Put a bundle there first if it is in your offhand or another container. Ordinary Minecraft fish and lookalike items cannot be deposited; the bundle must have been withdrawn through this plugin.
+
+The whole selected bundle returns to virtual storage and its physical item is removed. A fish bundle needs enough free space for its entire quantity in your creel; materials and augment copies return to their own balances. If there is not enough space, the bundle stays physical. Refresh the menu if you moved your items after opening it.
+
+Deposit bundles before selling or salvaging fish, using materials in recipes, or installing augment copies. Bundles are protected from normal cooking, eating, placing and crafting uses. They are still physical possessions: keep them safe from loss, destruction and unintended trades.
+
+Depositing restores ownership only. It gives **no additional fishing XP, discoveries, catch records, daily quest progress, tournament score, seasonal catch rewards or fishing-job credit**. It also does not reset a seasonal crafting window. A traded fish can be sold or salvaged after depositing, but the original angler keeps their catch records.
+
+Fish retain their stored sale value and salvage bonuses through transfers. The creel stores species totals, so partial withdrawals divide those totals without creating extra value. Any displayed largest length describes the original species group; a bundle is not a record of individually measured specimens.
+
+If a server crash interrupts a transfer, contact staff rather than trying to copy or rename the bundle. Each bundle can return its value only once. Staff can investigate an uncertain delivery; copying the item cannot create another valid reward.
 
 ## Fishing levels and permanent upgrades
 
@@ -112,7 +137,7 @@ Rods have **three augment slots** by default. **Branching Line uses two slots**;
 
 Use `/fish remove`, select the installed augment, and review the removal confirmation. Removal takes off **all installed levels** of that augment, returning one owned copy for each level. For example, removing a level-three augment returns three copies. The listed removal fee is charged once; previous crafting ingredients and installation fees are not refunded.
 
-Augments belong to the registered rod’s owner. Another player can fish normally with that rod but does not receive its augment benefits or gain permission to modify them. Renaming the rod does not change its ownership. Keep your valuable rods safe: losing the item loses access to its installed augments, and there is no player transfer or recovery command.
+Installed augments belong to the registered rod’s owner. Another player can fish normally with that rod but does not receive its augment benefits or gain permission to modify them. Renaming the rod does not change its ownership. Unused copies can be withdrawn and traded through Angler Storage. Keep your valuable rods safe: losing the rod loses access to its installed augments, and there is no player command to transfer or recover an installed loadout.
 
 ## Year-round augments
 
@@ -252,7 +277,7 @@ These five augments turn successful fishing into personal choices and longer pro
 
 **Stormglass — save a personal surge.** Build charge with **twelve successful catches**, then activate the ability from its menu. For up to **three minutes or eight eligible catches**, your line draws from a special configured fish pool under a private storm. Its weather requirement is evaluated as stormy even when the world is clear; other players’ weather does not change. Realm, world, biome, time, level, seasonal calendar, discovery and Regatta unlock requirements still apply. Charging and spending charge are separate choices.
 
-**Pearl Diver — open now or grow a better reward.** Each successful catch has a **5% chance** to find a virtual oyster, with room for **three oysters**. Open one immediately for **75 coins, 100 XP and 3 Tidal Fiber**, or keep it through **twelve further successful catches** to mature it. A mature oyster awards **250 coins, 350 XP, 5 Prismatic Dust and 8 Tidal Fiber**. The menu shows each oyster’s growth and lets you choose which to open. Oysters and rewards stay in your fishing profile; there are no physical oysters to lose in a chest or trade.
+**Pearl Diver — open now or grow a better reward.** Each successful catch has a **5% chance** to find a virtual oyster, with room for **three oysters**. Open one immediately for **75 coins, 100 XP and 3 Tidal Fiber**, or keep it through **twelve further successful catches** to mature it. A mature oyster awards **250 coins, 350 XP, 5 Prismatic Dust and 8 Tidal Fiber**. The menu shows each oyster’s growth and lets you choose which to open. Oysters remain virtual and cannot be withdrawn or traded. Their rewards enter your fishing profile first; eligible material and augment rewards can later be withdrawn through Angler Storage.
 
 **Prismatic Current — collect a spectrum.** Catch fish from **three different rarities**, then choose one temporary benefit for your next **eight successful catches**: favor eligible undiscovered species, favor larger sizes, or add one salvage unit to newly caught fish. The discovery choice has a default **50% chance per catch** to prefer unseen eligible species; it cannot unlock a forbidden habitat or guarantee a legendary. The size choice adds a size bias of **0.4**. The salvage choice stays attached to the affected catch until you salvage it. Every successful original catch spends one of the eight uses, including catches whose species is selected by Siren’s Bargain or Stormglass. After the benefit runs out, build a new spectrum.
 
@@ -351,6 +376,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish` | Angler’s Haven dashboard and profile. |
 | `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
+| `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |
+| `/fish deposit` | Choose a physical fishing bundle to return to virtual storage. |
 | `/fish catalog` | Field Guide, discoveries, and personal records. |
 | `/fish sell` | Full-creel sale confirmation. |
 | `/fish upgrades` | Permanent player upgrades. |
@@ -396,5 +423,7 @@ Activity actions also have direct commands: append `start`, `cancel`, `bank`, `r
 **An activity is unavailable.** Hold the registered rod with its matching augment installed. Check its cooldown, remaining time, and start limit. Seasonal ownership permits year-round use, but the augment still needs to be enabled by the server.
 
 **A menu asks you to review again.** Your bag, balance, or rod changed after the preview opened. Read the refreshed details and confirm the new preview.
+
+**An item will not withdraw or deposit.** Use Survival or Adventure and wait for any current transfer to finish. Withdrawal needs an empty inventory slot; a fish deposit needs space for the whole bundle in your creel. Only genuine Fishing bundles can be deposited, and only unused augment copies can be withdrawn. The server can disable transfers or particular item categories.
 
 **You cannot cast at all.** Make room in your creel, use Survival or Adventure, wait for your fishing profile to finish loading, and try an allowed fishing area. Server permissions and protected regions can restrict fishing.

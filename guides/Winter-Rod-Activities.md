@@ -1,6 +1,6 @@
 # Winter Rod Activities
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 The four winter augments unlock activities with their own goals. Hold the registered rod with the matching augment installed, open `/fish activities`, and select it. The detail menu shows your target, progress, remaining time, and available actions.
 

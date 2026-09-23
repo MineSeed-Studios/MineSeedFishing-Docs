@@ -1,6 +1,6 @@
 # Summer Rod Activities
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 These five augments turn successful fishing into personal choices and longer projects. Craft them during Sunken Solstice, install one on your registered rod, and use `/fish activities` or `/fish activity <augment_id>` to check its progress. Keep that same rod held when choosing or collecting rewards. Their abilities remain usable all year after you have earned the copies.
 
@@ -8,7 +8,7 @@ These five augments turn successful fishing into personal choices and longer pro
 
 **Stormglass — save a personal surge.** Build charge with **twelve successful catches**, then activate the ability from its menu. For up to **three minutes or eight eligible catches**, your line draws from a special configured fish pool under a private storm. Its weather requirement is evaluated as stormy even when the world is clear; other players’ weather does not change. Realm, world, biome, time, level, seasonal calendar, discovery and Regatta unlock requirements still apply. Charging and spending charge are separate choices.
 
-**Pearl Diver — open now or grow a better reward.** Each successful catch has a **5% chance** to find a virtual oyster, with room for **three oysters**. Open one immediately for **75 coins, 100 XP and 3 Tidal Fiber**, or keep it through **twelve further successful catches** to mature it. A mature oyster awards **250 coins, 350 XP, 5 Prismatic Dust and 8 Tidal Fiber**. The menu shows each oyster’s growth and lets you choose which to open. Oysters and rewards stay in your fishing profile; there are no physical oysters to lose in a chest or trade.
+**Pearl Diver — open now or grow a better reward.** Each successful catch has a **5% chance** to find a virtual oyster, with room for **three oysters**. Open one immediately for **75 coins, 100 XP and 3 Tidal Fiber**, or keep it through **twelve further successful catches** to mature it. A mature oyster awards **250 coins, 350 XP, 5 Prismatic Dust and 8 Tidal Fiber**. The menu shows each oyster’s growth and lets you choose which to open. Oysters remain virtual and cannot be withdrawn or traded. Their rewards enter your fishing profile first; eligible material and augment rewards can later be withdrawn through Angler Storage.
 
 **Prismatic Current — collect a spectrum.** Catch fish from **three different rarities**, then choose one temporary benefit for your next **eight successful catches**: favor eligible undiscovered species, favor larger sizes, or add one salvage unit to newly caught fish. The discovery choice has a default **50% chance per catch** to prefer unseen eligible species; it cannot unlock a forbidden habitat or guarantee a legendary. The size choice adds a size bias of **0.4**. The salvage choice stays attached to the affected catch until you salvage it. Every successful original catch spends one of the eight uses, including catches whose species is selected by Siren’s Bargain or Stormglass. After the benefit runs out, build a new spectrum.
 

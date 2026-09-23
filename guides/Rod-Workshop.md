@@ -1,6 +1,6 @@
 # Rod Workshop
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Augments let you specialize a particular rod. Open `/fish workshop` to craft copies, install them, remove them, salvage fish, and browse your material pouch.
 
@@ -22,7 +22,7 @@ Rods have **three augment slots** by default. **Branching Line uses two slots**;
 
 Use `/fish remove`, select the installed augment, and review the removal confirmation. Removal takes off **all installed levels** of that augment, returning one owned copy for each level. For example, removing a level-three augment returns three copies. The listed removal fee is charged once; previous crafting ingredients and installation fees are not refunded.
 
-Augments belong to the registered rod’s owner. Another player can fish normally with that rod but does not receive its augment benefits or gain permission to modify them. Renaming the rod does not change its ownership. Keep your valuable rods safe: losing the item loses access to its installed augments, and there is no player transfer or recovery command.
+Installed augments belong to the registered rod’s owner. Another player can fish normally with that rod but does not receive its augment benefits or gain permission to modify them. Renaming the rod does not change its ownership. Unused copies can be withdrawn and traded through Angler Storage. Keep your valuable rods safe: losing the rod loses access to its installed augments, and there is no player command to transfer or recover an installed loadout.
 
 ---
 

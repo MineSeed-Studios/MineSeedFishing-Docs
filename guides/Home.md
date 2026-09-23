@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias. MineSeedFishing takes priority for `/fishing` when mcMMO is installed; use `/mcmmo:fishing` for mcMMO’s fishing skill page.
 
-This guide describes version **1.5.2 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.6.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Explore the guide
 
@@ -12,7 +12,7 @@ This guide describes version **1.5.2 with its default settings**. The server can
 | --- | --- |
 | [Getting Started](Getting-Started.md) | Your first cast, water, Nether lava, and End void. |
 | [Fish and Collection](Fish-and-Collection.md) | Species, rarity, sizes, and the Field Guide. |
-| [Your Creel](Your-Creel.md) | Store catches, sell your haul, or salvage materials. |
+| [Your Creel](Your-Creel.md) | Store, sell and salvage catches; withdraw, trade and deposit physical bundles. |
 | [Levels and Upgrades](Levels-and-Upgrades.md) | XP progress bars, profile lookup, unlocks, and permanent player upgrades. |
 | [Rod Workshop](Rod-Workshop.md) | Craft copies, register rods, install, upgrade, and remove augments. |
 | [Augments](Augments.md) | All standard and seasonal augment effects. |

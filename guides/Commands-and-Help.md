@@ -1,6 +1,6 @@
 # Commands and Help
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Command reference
 
@@ -11,6 +11,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish` | Angler’s Haven dashboard and profile. |
 | `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
+| `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |
+| `/fish deposit` | Choose a physical fishing bundle to return to virtual storage. |
 | `/fish catalog` | Field Guide, discoveries, and personal records. |
 | `/fish sell` | Full-creel sale confirmation. |
 | `/fish upgrades` | Permanent player upgrades. |
@@ -56,6 +58,8 @@ Activity actions also have direct commands: append `start`, `cancel`, `bank`, `r
 **An activity is unavailable.** Hold the registered rod with its matching augment installed. Check its cooldown, remaining time, and start limit. Seasonal ownership permits year-round use, but the augment still needs to be enabled by the server.
 
 **A menu asks you to review again.** Your bag, balance, or rod changed after the preview opened. Read the refreshed details and confirm the new preview.
+
+**An item will not withdraw or deposit.** Use Survival or Adventure and wait for any current transfer to finish. Withdrawal needs an empty inventory slot; a fish deposit needs space for the whole bundle in your creel. Only genuine Fishing bundles can be deposited, and only unused augment copies can be withdrawn. The server can disable transfers or particular item categories.
 
 **You cannot cast at all.** Make room in your creel, use Survival or Adventure, wait for your fishing profile to finish loading, and try an allowed fishing area. Server permissions and protected regions can restrict fishing.
 

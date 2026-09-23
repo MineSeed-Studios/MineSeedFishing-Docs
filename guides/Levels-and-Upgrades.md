@@ -1,6 +1,6 @@
 # Levels and Upgrades
 
-> Based on MineSeedFishing 1.5.2 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Fishing XP is separate from vanilla Minecraft experience. You start at **fishing level 1** and can reach **level 100**. Each new level requires more XP than the last; the default total for level 100 is **9,801,000 fishing XP**. Catching fish, claiming quests, and completing certain activities earn fishing XP. Higher levels unlock more species and augment blueprints.
 
