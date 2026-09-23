@@ -1,6 +1,6 @@
 # Summer Rod Activities
 
-> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 These five augments turn successful fishing into personal choices and longer projects. Craft them during Sunken Solstice, install one on your registered rod, and use `/fish activities` or `/fish activity <augment_id>` to check its progress. Keep that same rod held when choosing or collecting rewards. Their abilities remain usable all year after you have earned the copies.
 

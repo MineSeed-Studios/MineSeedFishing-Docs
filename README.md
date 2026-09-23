@@ -9,6 +9,7 @@ Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishin
 | Explore | Included topics |
 | --- | --- |
 | [Getting started](guides/Getting-Started.md) | Casting, bites, and fishing in all three realms. |
+| [Fishing settings](guides/Fishing-Settings.md) | Personal chat toggles, saved choices and message categories. |
 | [Fish and collection](guides/Fish-and-Collection.md) | Species, rarity, sizes, records, and the Field Guide. |
 | [Your creel](guides/Your-Creel.md) | Virtual storage, manual physical withdrawal, deposits, trading, selling, and salvage. |
 | [Levels and upgrades](guides/Levels-and-Upgrades.md) | XP progress bars, online/offline profile lookup, and permanent player upgrades. |
@@ -27,6 +28,6 @@ Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishin
 | [Special crate rods](guides/Special-Crate-Rods.md) | Bonus catches, progression, and automatic Recast. |
 | [Commands and help](guides/Commands-and-Help.md) | Player commands and common questions. |
 
-The guide covers **MineSeedFishing 1.6.0 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
+The guide covers **MineSeedFishing 1.7.0 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
 
 This public repository contains player documentation only.

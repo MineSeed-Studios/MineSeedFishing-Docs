@@ -1,6 +1,6 @@
 # Commands and Help
 
-> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Command reference
 
@@ -9,6 +9,7 @@ Every command below also works with `/fishing` in place of `/fish`.
 | Command | Opens or performs |
 | --- | --- |
 | `/fish` | Angler’s Haven dashboard and profile. |
+| `/fish settings` | Choose which fishing chat messages you want to see. Choices are saved for your player. |
 | `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
 | `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |

@@ -1,6 +1,7 @@
 **[MineSeedFishing](Home.md)**
 
 - [Getting Started](Getting-Started.md)
+- [Fishing Settings](Fishing-Settings.md)
 - [Fish and Collection](Fish-and-Collection.md)
 - [Your Creel](Your-Creel.md)
 - [Levels and Upgrades](Levels-and-Upgrades.md)

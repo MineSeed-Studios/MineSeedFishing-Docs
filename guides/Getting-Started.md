@@ -1,6 +1,6 @@
 # Getting Started
 
-> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Your first fishing trip
 
@@ -41,4 +41,4 @@ Keep the same rod held while fishing. Opening an inventory menu, switching or dr
 
 ---
 
-[Wiki home](Home.md) · [Next: Fish and Collection](Fish-and-Collection.md)
+[Wiki home](Home.md) · [Next: Fishing Settings](Fishing-Settings.md)

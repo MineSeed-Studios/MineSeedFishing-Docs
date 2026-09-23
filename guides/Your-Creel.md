@@ -1,6 +1,6 @@
 # Your Creel
 
-> Based on MineSeedFishing 1.6.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Your creel starts with space for **100 fish**. `/fish bag` groups catches by species and displays their quantities, largest lengths, and combined value. Your saved catches remain through logout and server restarts. A full creel prevents further custom fishing until you make room.
 
