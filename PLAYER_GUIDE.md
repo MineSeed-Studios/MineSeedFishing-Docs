@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias. MineSeedFishing takes priority for `/fishing` when mcMMO is installed; use `/mcmmo:fishing` for mcMMO’s fishing skill page.
 
-This guide describes version **1.7.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.8.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Your fishing chat settings
 
@@ -43,6 +43,8 @@ All categories start enabled with the default server configuration. You can inde
 Muting a category changes **chat delivery only**. Your catches, XP, coins, items, activity progress, Jobs credit, sounds and effects continue normally. Muting rare-catch announcements hides them from your own chat; other players can still see announcements according to their settings. Bite messages can be muted too, so keep watching your line if you turn those off.
 
 Command help, requested profile information, permission errors, full-creel warnings, failed actions and refund or unresolved-payment notices remain visible. Messages sent by other plugins use those plugins' own settings. Server staff can customize the default choices and the menu, but an existing saved choice takes precedence over a changed server default.
+
+The **Loot Filters** button in Fishing Settings opens your saved choices for ordinary fishing loot. Those choices affect future rewards; they are separate from chat toggles.
 
 ## Your first fishing trip
 
@@ -129,6 +131,50 @@ Depositing restores ownership only. It gives **no additional fishing XP, discove
 Fish retain their stored sale value and salvage bonuses through transfers. The creel stores species totals, so partial withdrawals divide those totals without creating extra value. Any displayed largest length describes the original species group; a bundle is not a record of individually measured specimens.
 
 If a server crash interrupts a transfer, contact staff rather than trying to copy or rename the bundle. Each bundle can return its value only once. Staff can investigate an uncertain delivery; copying the item cannot create another valid reward.
+
+## Fishing loot, vanilla rewards, and mcMMO
+
+Your custom fish still go to **Your Creel**. Ordinary Minecraft supplies and special treasures have a separate **Fishing Loot** vault, opened with **`/fish loot`** or the dashboard button. Both stay virtual until you deliberately withdraw something.
+
+### Keep the useful parts of vanilla fishing
+
+Water fishing keeps Minecraft's original loot roll, so **Luck of the Sea**, **open-water treasure requirements**, and the actual item's enchantments and damage still matter. Cod, salmon, tropical fish, and pufferfish stack as virtual supplies. Useful finds such as enchanted books, name tags and nautilus shells are saved without scattering items into your inventory.
+
+Nether lava and End void fishing also have a small extra-reward pool: **an 8% chance per cast** with the defaults. Lava can yield quartz, gold nuggets or blaze powder; void can yield chorus fruit or an ender pearl. These are extra supplies alongside the custom fish.
+
+Normal Minecraft experience is awarded after a successful catch and can repair items with **Mending**. Water uses the original fishing XP; lava and void start with **1–6 XP per cast**. This is separate from your MineSeedFishing level and mcMMO skill XP.
+
+### Choose what you keep
+
+Use **`/fish loot filters`**, or open **Loot Filters** from Fishing Settings or your loot vault. Click a category to cycle through **Keep**, **Recycle**, and **Discard**. Choices save for your player across restarts.
+
+| Category | Default | What it does |
+| --- | --- | --- |
+| Vanilla fish | Keep | Save ordinary fish as virtual supplies. |
+| Vanilla treasure | Keep | Save useful vanilla finds and the lava/void bonus supplies. |
+| mcMMO treasure | Keep | Save special mcMMO finds that are not ordinary equipment. |
+| Ordinary equipment | Recycle | Convert low-tier unenchanted armor, tools and weapons into materials. |
+| Junk | Recycle | Convert low-value odds and ends into materials. |
+
+With the defaults, each recycled equipment or junk item gives **one Tidal Fiber**, rather than coins. Discard gives nothing. Changing a choice affects **future catches only**; existing vault contents remain unchanged.
+
+Enchanted items, enchanted books, items with custom persistent data, and configured valuable equipment are **always kept with the default protection settings**, even if their category says Recycle or Discard. Protected equipment includes diamond and netherite armor/tools, tridents, elytra, maces and diamond horse armor. Staff can customize these protections and conversion yields. Automatically recycling loot does not grant mcMMO Salvage XP.
+
+### Withdraw a usable item
+
+Open `/fish loot`, select a stored item, then select a quantity. Default quantity choices are **1, 16 and 64**, limited by what you own and the item's real stack size. Leave one empty inventory slot. You receive an ordinary usable Minecraft item with its original enchantments, damage and other data.
+
+You can cook the raw fish, use supplies in recipes, equip gear, or trade withdrawn loot normally. **Ordinary loot cannot be redeposited.** The sealed bundles from `/fish items` remain a separate system for custom fish, Fishing materials and augment copies; only those bundles belong in `/fish deposit`.
+
+The vault holds **512 distinct item variants** by default. Identical variants stack virtually; different enchantments or damage can occupy separate entries. If a catch needs a new entry while the vault is full, that cast awards no catch or extra rewards. Withdraw unwanted variants to make room before continuing.
+
+### mcMMO Fishing progression
+
+With the updated mcMMO integration installed, successful **water, lava and void** catches can advance your mcMMO Fishing skill. Its permissions, skill levels, global XP modifiers, party sharing and anti-farming rules still apply. Use **`/mcmmo:fishing`** to view that skill; `/fishing` opens MineSeedFishing.
+
+Treasure Hunter and Magic Hunter retain their mcMMO requirements and reward rules. Their useful items go to the same loot vault; ordinary equipment follows your filters. Master Angler improves eligible bite waits and is applied once alongside the rod's other timing rules.
+
+A cast gets **one mcMMO treasure opportunity**. Extra multicast lines give **no additional mcMMO XP by default**, and bonus fish copies never create another treasure roll. Withdrawals, deposits, and filters do not count as catches or award another round of XP, Jobs pay or tournament progress. MineSeedFishing's level-100 progression remains independent of mcMMO's levels.
 
 ## Fishing levels and permanent upgrades
 
@@ -415,6 +461,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish settings` | Choose which fishing chat messages you want to see. Choices are saved for your player. |
 | `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
+| `/fish loot` | Browse and withdraw usable vanilla supplies and special treasures. |
+| `/fish loot filters` | Choose Keep, Recycle or Discard for future loot categories. |
 | `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |
 | `/fish deposit` | Choose a physical fishing bundle to return to virtual storage. |
 | `/fish catalog` | Field Guide, discoveries, and personal records. |
@@ -464,5 +512,7 @@ Activity actions also have direct commands: append `start`, `cancel`, `bank`, `r
 **A menu asks you to review again.** Your bag, balance, or rod changed after the preview opened. Read the refreshed details and confirm the new preview.
 
 **An item will not withdraw or deposit.** Use Survival or Adventure and wait for any current transfer to finish. Withdrawal needs an empty inventory slot; a fish deposit needs space for the whole bundle in your creel. Only genuine Fishing bundles can be deposited, and only unused augment copies can be withdrawn. The server can disable transfers or particular item categories.
+
+**Fishing asks for a compatible mcMMO integration.** Staff need to install the matching updated mcMMO build alongside MineSeedFishing and restart. Fishing pauses managed casts while an older incompatible mcMMO is installed. A server without mcMMO does not need that companion.
 
 **You cannot cast at all.** Make room in your creel, use Survival or Adventure, wait for your fishing profile to finish loading, and try an allowed fishing area. Server permissions and protected regions can restrict fishing.

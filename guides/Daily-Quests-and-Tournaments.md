@@ -1,6 +1,6 @@
 # Daily Quests and Tournaments
 
-> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Open `/fish quests` to follow these default daily goals:
 

@@ -1,6 +1,6 @@
 # Fishing Settings
 
-> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Use **`/fish settings`** or **`/fishing settings`**, or click **Fishing Settings** in your dashboard. Click a message category to turn it on or off. The card shows its current state and what your next click will do. Your choices apply only to you and are saved across logout and server restarts.
 
@@ -37,6 +37,8 @@ All categories start enabled with the default server configuration. You can inde
 Muting a category changes **chat delivery only**. Your catches, XP, coins, items, activity progress, Jobs credit, sounds and effects continue normally. Muting rare-catch announcements hides them from your own chat; other players can still see announcements according to their settings. Bite messages can be muted too, so keep watching your line if you turn those off.
 
 Command help, requested profile information, permission errors, full-creel warnings, failed actions and refund or unresolved-payment notices remain visible. Messages sent by other plugins use those plugins' own settings. Server staff can customize the default choices and the menu, but an existing saved choice takes precedence over a changed server default.
+
+The **Loot Filters** button in Fishing Settings opens your saved choices for ordinary fishing loot. Those choices affect future rewards; they are separate from chat toggles.
 
 ---
 

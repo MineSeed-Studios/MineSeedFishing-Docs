@@ -1,6 +1,6 @@
 # Biome Disruption
 
-> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Want a chance at water fish from other biomes without moving to a new fishing spot? Open `/fish disrupt`, buy a charge, face the water, and throw it. The same controls are available through `/fish disrupt buy` and `/fish disrupt throw`.
 

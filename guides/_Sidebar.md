@@ -4,6 +4,7 @@
 - [Fishing Settings](Fishing-Settings.md)
 - [Fish and Collection](Fish-and-Collection.md)
 - [Your Creel](Your-Creel.md)
+- [Fishing Loot and mcMMO](Fishing-Loot.md)
 - [Levels and Upgrades](Levels-and-Upgrades.md)
 - [Rod Workshop](Rod-Workshop.md)
 - [Augments](Augments.md)

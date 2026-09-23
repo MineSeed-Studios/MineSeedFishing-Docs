@@ -1,6 +1,6 @@
 # Commands and Help
 
-> Based on MineSeedFishing 1.7.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Command reference
 
@@ -12,6 +12,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish settings` | Choose which fishing chat messages you want to see. Choices are saved for your player. |
 | `/fish info [player]` | Your profile in chat, or another saved angler’s profile by name or UUID, including offline players. |
 | `/fish bag` | Your creel. |
+| `/fish loot` | Browse and withdraw usable vanilla supplies and special treasures. |
+| `/fish loot filters` | Choose Keep, Recycle or Discard for future loot categories. |
 | `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |
 | `/fish deposit` | Choose a physical fishing bundle to return to virtual storage. |
 | `/fish catalog` | Field Guide, discoveries, and personal records. |
@@ -61,6 +63,8 @@ Activity actions also have direct commands: append `start`, `cancel`, `bank`, `r
 **A menu asks you to review again.** Your bag, balance, or rod changed after the preview opened. Read the refreshed details and confirm the new preview.
 
 **An item will not withdraw or deposit.** Use Survival or Adventure and wait for any current transfer to finish. Withdrawal needs an empty inventory slot; a fish deposit needs space for the whole bundle in your creel. Only genuine Fishing bundles can be deposited, and only unused augment copies can be withdrawn. The server can disable transfers or particular item categories.
+
+**Fishing asks for a compatible mcMMO integration.** Staff need to install the matching updated mcMMO build alongside MineSeedFishing and restart. Fishing pauses managed casts while an older incompatible mcMMO is installed. A server without mcMMO does not need that companion.
 
 **You cannot cast at all.** Make room in your creel, use Survival or Adventure, wait for your fishing profile to finish loading, and try an allowed fishing area. Server permissions and protected regions can restrict fishing.
 

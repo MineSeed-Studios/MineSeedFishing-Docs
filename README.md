@@ -12,6 +12,7 @@ Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishin
 | [Fishing settings](guides/Fishing-Settings.md) | Personal chat toggles, saved choices and message categories. |
 | [Fish and collection](guides/Fish-and-Collection.md) | Species, rarity, sizes, records, and the Field Guide. |
 | [Your creel](guides/Your-Creel.md) | Virtual storage, manual physical withdrawal, deposits, trading, selling, and salvage. |
+| [Fishing loot and mcMMO](guides/Fishing-Loot.md) | Virtual supplies and treasure, per-player filters, usable item withdrawals and mcMMO progression. |
 | [Levels and upgrades](guides/Levels-and-Upgrades.md) | XP progress bars, online/offline profile lookup, and permanent player upgrades. |
 | [Rod workshop](guides/Rod-Workshop.md) | Materials, crafting, installation, upgrades, and removal. |
 | [Augments](guides/Augments.md) | Year-round and seasonal rod effects. |
@@ -28,6 +29,6 @@ Start in-game with **`/fish`** or **`/fishing`**. Both commands open your fishin
 | [Special crate rods](guides/Special-Crate-Rods.md) | Bonus catches, progression, and automatic Recast. |
 | [Commands and help](guides/Commands-and-Help.md) | Player commands and common questions. |
 
-The guide covers **MineSeedFishing 1.7.0 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
+The guide covers **MineSeedFishing 1.8.0 defaults**. Individual servers can customize features, prices, rewards, recipes, and schedules. Check the in-game menus for current settings. Daily resets use **US/Eastern**, including daylight-saving changes, by default.
 
 This public repository contains player documentation only.
