@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias. MineSeedFishing takes priority for `/fishing` when mcMMO is installed; use `/mcmmo:fishing` for mcMMO’s fishing skill page.
 
-This guide describes version **1.8.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.9.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Your fishing chat settings
 
@@ -91,6 +91,24 @@ Each catch has its own length, physical weight, and sale value. Larger specimens
 
 Open `/fish catalog` to browse the **Field Guide**. It shows each species’ realm, rarity, required level, habitat, time and weather conditions, possible size range, discovery status, total caught, and your largest recorded length. This is also your collection journal: selling or salvaging a fish does not erase the discovery or record.
 
+### Browse by habitat
+
+Use the **Biome Browser** button in the Field Guide, or **`/fish biomes`**, to pick a habitat. The default groups are **Warm Ocean, Cold/Ice, Swamp, Plains, Desert, Jungle, Mushroom Island, Deep Dark, Cold Ocean, and Caves**. Each card shows how many fish and bonus finds belong there. There are also quick views for **All Catches, Water, Nether Lava, End Void, and Seasonal**. Changing pages keeps your filter; the browser's return button takes you back to the page you were reading.
+
+You can jump directly to a group, for example **`/fish catalog swamp`**, **`/fish catalog mushroom_island`**, or **`/fish catalog cold_ocean`**. Tab completion lists the available choices. All these commands also work with `/fishing`.
+
+Fish that appear in several habitats can be caught in any of those habitats. The game checks the **biome at your hook**, so moving yourself onto a different shore does not change the pool if the hook stays in the same biome. Cold/Ice covers frozen waters and snowy biomes; Cold Ocean covers cold and deep cold ocean. Caves means **lush caves and dripstone caves**, plus sulfur caves on newer versions; Deep Dark has its own group. Plains also covers ordinary rivers and temperate land, and Warm Ocean includes regular and lukewarm oceans, so the other common fishing spots still have a pool. The server can customize every group.
+
+Your old catches, discoveries and records are retained. Lava and void species keep their realm rules, and seasonal species still require their event and usual unlocks. A filter shows where a species belongs; it does not remove level, time, weather or seasonal requirements.
+
+### Shells, coins and other biome finds
+
+The guide also includes **18 bonus finds** from the installed pack: shells, coins, relics, an anchor, a pirate lamp, and a chest. Their cards say **Biome Find**. A successful water cast in a habitat containing finds has a **4% chance** to roll one, alongside its fish. Some finds are rarer than others. Extra lines and bonus fish do not multiply this roll.
+
+Finds go into **Fishing Loot** (`/fish loot`) and stay virtual until manually withdrawn. They use the **Vanilla treasure** filter; default protection keeps ItemsAdder items with persistent data. They do not add fish discoveries, length/weight records, job catches, XP or tournament score. The decorative Copper/Silver/Gold Coin items do **not** automatically add fishing coins or server money. The pack's **Copper Coin** is used for the bronze-coin entries.
+
+Biome disruption expands the **fish** pool; these extra finds still come from the hook's actual habitat. The vault must be enabled for water rewards. Your server can change the find chance, weights, artwork, habitat membership and menu wording.
+
 Custom fish artwork appears in the menus and on manually withdrawn fish when the server’s ItemsAdder pack and your resource pack are available. Menu icons are previews: use Angler Storage to withdraw an item instead of dragging an icon out.
 
 ## Your creel: keep, sell, or salvage
@@ -151,7 +169,7 @@ Use **`/fish loot filters`**, or open **Loot Filters** from Fishing Settings or 
 | Category | Default | What it does |
 | --- | --- | --- |
 | Vanilla fish | Keep | Save ordinary fish as virtual supplies. |
-| Vanilla treasure | Keep | Save useful vanilla finds and the lava/void bonus supplies. |
+| Vanilla treasure | Keep | Save useful vanilla finds, biome finds and the lava/void bonus supplies. |
 | mcMMO treasure | Keep | Save special mcMMO finds that are not ordinary equipment. |
 | Ordinary equipment | Recycle | Convert low-tier unenchanted armor, tools and weapons into materials. |
 | Junk | Recycle | Convert low-value odds and ends into materials. |
@@ -465,7 +483,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish loot filters` | Choose Keep, Recycle or Discard for future loot categories. |
 | `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |
 | `/fish deposit` | Choose a physical fishing bundle to return to virtual storage. |
-| `/fish catalog` | Field Guide, discoveries, and personal records. |
+| `/fish catalog [filter]` | Field Guide with optional habitat, realm or seasonal filter. |
+| `/fish biomes` | Browse habitat cards, fish counts and bonus finds. |
 | `/fish sell` | Full-creel sale confirmation. |
 | `/fish upgrades` | Permanent player upgrades. |
 | `/fish quests` | Daily quest progress and reward claims. |

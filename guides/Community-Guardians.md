@@ -1,6 +1,6 @@
 # Community Guardians
 
-> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Winter’s Wake also has a shared fishing encounter: the **Frostwake Leviathan**. Catching seasonal winter fish contributes toward the community’s **100-catch target**. This contribution does not spend your Sleigh Sparks. Make at least **three seasonal catches in the current round** to qualify to participate and receive its victory reward.
 

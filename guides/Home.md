@@ -4,7 +4,7 @@ From quiet rivers to the lava pools of the Nether and the open void beneath End 
 
 **Start with `/fish` or `/fishing`.** Both commands open **Angler’s Haven**, your fishing dashboard, and work interchangeably for every command in this guide. `/msfish` is another alias. MineSeedFishing takes priority for `/fishing` when mcMMO is installed; use `/mcmmo:fishing` for mcMMO’s fishing skill page.
 
-This guide describes version **1.8.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
+This guide describes version **1.9.0 with its default settings**. The server can change prices, rewards, recipes, dates, requirements, and available features. Check the live menus for the settings currently in use. Daily resets and seasonal dates default to **US/Eastern**, automatically following Eastern Standard Time and Eastern Daylight Time. Fish that require day, night, or particular weather follow the **Minecraft world’s conditions**.
 
 ## Explore the guide
 

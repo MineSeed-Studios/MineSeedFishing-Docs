@@ -1,6 +1,6 @@
 # Augments
 
-> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Year-round augments
 

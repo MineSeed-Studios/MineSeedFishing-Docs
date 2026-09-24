@@ -1,6 +1,6 @@
 # Commands and Help
 
-> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 ## Command reference
 
@@ -16,7 +16,8 @@ Every command below also works with `/fishing` in place of `/fish`.
 | `/fish loot filters` | Choose Keep, Recycle or Discard for future loot categories. |
 | `/fish items`, `/fish withdraw` | Angler Storage: withdraw fish, materials or unused augment copies. |
 | `/fish deposit` | Choose a physical fishing bundle to return to virtual storage. |
-| `/fish catalog` | Field Guide, discoveries, and personal records. |
+| `/fish catalog [filter]` | Field Guide with optional habitat, realm or seasonal filter. |
+| `/fish biomes` | Browse habitat cards, fish counts and bonus finds. |
 | `/fish sell` | Full-creel sale confirmation. |
 | `/fish upgrades` | Permanent player upgrades. |
 | `/fish quests` | Daily quest progress and reward claims. |

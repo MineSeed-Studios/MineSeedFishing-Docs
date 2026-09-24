@@ -1,6 +1,6 @@
 # Fishing Loot and mcMMO
 
-> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Your custom fish still go to **Your Creel**. Ordinary Minecraft supplies and special treasures have a separate **Fishing Loot** vault, opened with **`/fish loot`** or the dashboard button. Both stay virtual until you deliberately withdraw something.
 
@@ -19,7 +19,7 @@ Use **`/fish loot filters`**, or open **Loot Filters** from Fishing Settings or 
 | Category | Default | What it does |
 | --- | --- | --- |
 | Vanilla fish | Keep | Save ordinary fish as virtual supplies. |
-| Vanilla treasure | Keep | Save useful vanilla finds and the lava/void bonus supplies. |
+| Vanilla treasure | Keep | Save useful vanilla finds, biome finds and the lava/void bonus supplies. |
 | mcMMO treasure | Keep | Save special mcMMO finds that are not ordinary equipment. |
 | Ordinary equipment | Recycle | Convert low-tier unenchanted armor, tools and weapons into materials. |
 | Junk | Recycle | Convert low-value odds and ends into materials. |

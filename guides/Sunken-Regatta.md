@@ -1,6 +1,6 @@
 # The Sunken Regatta
 
-> Based on MineSeedFishing 1.8.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Sunken Solstice also brings a shared restoration project. Open `/fish regatta` to see how the whole server is rebuilding an ancient vessel. This is a cooperative fishing objective: summer catches contribute automatically while the event is active, and each completed stage reveals more summer species in all three realms.
 
