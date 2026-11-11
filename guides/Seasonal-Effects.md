@@ -1,10 +1,8 @@
 # Seasonal Effects
 
-> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.10.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
-Usable seasonal augments add atmosphere around your fishing spot: a spooky purple ring for Halloween, drifting snowflakes for winter, cherry petals for spring and sparks for summer, with matching sounds. These effects can continue year-round with augments you already own.
-
-By default, only the angler sees their augment effects. If several seasonal styles are equipped, one matching style is shown. These are visual effects around the line; they do not change water blocks, biome colors, or terrain.
+Usable seasonal augments retain their configured seasonal sounds year-round. The decorative circle around waiting bobbers has been removed. Bite cues and ability pools remain visible. Fish Caller marks its exact boundary with a bright cyan ring in water, yellow in lava and purple in the void, raised above the surface so it is easier to see.
 
 ---
 

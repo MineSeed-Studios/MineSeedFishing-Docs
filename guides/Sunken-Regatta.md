@@ -1,8 +1,10 @@
 # The Sunken Regatta
 
-> Based on MineSeedFishing 1.9.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
+> Based on MineSeedFishing 1.10.0 defaults. Check the server’s menus for customized requirements, prices, and rewards. Calendar dates use US/Eastern by default.
 
 Sunken Solstice also brings a shared restoration project. Open `/fish regatta` to see how the whole server is rebuilding an ancient vessel. This is a cooperative fishing objective: summer catches contribute automatically while the event is active, and each completed stage reveals more summer species in all three realms.
+
+**The Regatta is summer-only.** Outside Sunken Solstice, the menu says **NOT ACTIVE — preview only** and gives the next summer opening date. Its contributor treasure cannot be claimed then; directly attempting a claim explains the event schedule and currently active events. Browsing its ship, rewards and blueprints remains available. If the server disables the summer event or Regatta, the notice identifies that disabled state instead of suggesting that waiting for summer will enable it.
 
 | Stage | Total summer catches required | What opens |
 | --- | ---: | --- |
@@ -14,8 +16,8 @@ The thresholds are cumulative. Species unlocked by an earlier stage stay availab
 
 Completing the final stage starts a **72-hour celebration**, while the summer event remains active, that adds **20 percentage points** to the chance of trying the summer fish pool. Its normal 25% chance becomes 45%; this is a chance to try that pool, not a guaranteed rare catch.
 
-Players who contributed at least **100 summer catches** can then claim **5,000 fishing coins, 10,000 XP and 75 Sunlit Sea Glass** from the Regatta menu, once per annual season. Claim before the summer event ends. Progress, contributions, completed stages and claims survive restarts. A new summer season starts a new restoration.
+Players who contributed at least **100 summer catches** can then claim **25,000 fishing coins ($25,000), 10,000 XP and 75 Sunlit Sea Glass** from the Regatta menu, once per annual season. Claim before the summer event ends. Progress, contributions, completed stages and claims survive restarts. A new summer season starts a new restoration.
 
 ---
 
-[Wiki home](Home.md) · [Previous: Summer Rod Activities](Summer-Rod-Activities.md) · [Next: Winter Rod Activities](Winter-Rod-Activities.md)
+[Wiki home](Home.md) · [Previous: Seasonal Events](Seasonal-Events.md) · [Next: Community Guardians](Community-Guardians.md)
